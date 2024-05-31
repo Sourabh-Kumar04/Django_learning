@@ -9,4 +9,4 @@ def all_raso(request) :
 
 def raso_detail(request, raso_id):
     raso = get_object_or_404(RasoVarity, pk=raso_id)
-    return render(request, 'raso/raso_detail.html', {'raso': raso})
+    return render(request, 'raso/raso_detail.html', {'raso': raso} )
