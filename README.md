@@ -220,4 +220,8 @@ This is a basic outline, and actual deployment may require additional steps and 
 
 ---
 
+<<<<<<< HEAD
 This is a general documentation template and can be extended or customized based on the specifics of your Django project and additional features you might have.
+=======
+This is a general documentation template and can be extended or customized based on the specifics of your Django project and additional features you might have.
+>>>>>>> origin/master
