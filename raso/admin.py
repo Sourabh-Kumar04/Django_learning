@@ -7,13 +7,13 @@ class RasoReviewInline(admin.TabularInline):
     extra = 2
 
 class RasoVarietyAdmin(admin.ModelAdmin):
-    list_display = ('name', 'type', 'date_added')
+    list_display = ('name', 'type', 'date_addes')
     inlines = [RasoReviewInline]
 
 
 class StoreAdmin(admin.ModelAdmin):
     list_display = ('name', 'location')
-    # filter_horizontal = ('raso_varities',)
+    filter_horizontal = ('raso_varity',)
 
 class RasoCertificateAdmin(admin.ModelAdmin):
     list_display = ('raso', 'certificate_number', 'issue_date', 'valid_untill')    
